@@ -13,7 +13,7 @@ for (var i = 0; i < selects.length; i++) {
 // 选取下拉菜单项
 for (var i = 0; i < scorelist.length; i++) {
     var ops = scorelist[i].options;
-    var rid = Math.floor(Math.random()*scorelist.length)
+    var rid = Math.floor(Math.random()*scorelist.length);
     for (var j = 0; j < ops.length; j++) {
         var tempValue = ops[j].value;
         if (i == rid) {
